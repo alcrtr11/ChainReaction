@@ -9,7 +9,7 @@ function addResources(){
     var size = document.getElementById("size").children;
     resources.addResource("size", size[1], 0).cost(size[4], 10, 1.1).button(size[2], [1, 0]);
     var balls = document.getElementById("balls").children;
-    resources.addResource("balls", balls[1], 0).cost(balls[4], 50, 1.1).button(balls[2], [1, 0]);
+    resources.addResource("balls", balls[10], 0).cost(balls[4], 50, 1.1).button(balls[2], [1, 0]);
 };
 
 function Resource(elem, decimal){
